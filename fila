@@ -32,9 +32,8 @@ def add_fila():
     print(lista_fila)
     menu_fila()
   else:
+    elemento = int(elemento)
     lista_fila.append(elemento)
     add_fila()
   
 menu_fila()
-
-  
