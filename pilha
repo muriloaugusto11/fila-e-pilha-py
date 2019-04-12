@@ -32,6 +32,7 @@ def add_pilha():
     print(lista_pilha)
     menu_pilha()
   else:
+    elemento = int(elemento)
     lista_pilha.append(elemento)
     add_pilha()
   
