@@ -20,7 +20,7 @@ def sub_fila():
     menu_fila()
   if len(lista_fila) == 0: 
     print("lista vazia!")
-    menu_fila
+    menu_fila()
   else:
     sub_fila()
 
